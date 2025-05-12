@@ -1,12 +1,34 @@
-# React + Vite
+# Plateforme de Gestion Intégrée – React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est une plateforme web développée avec **React** et **Vite**. Elle permet la gestion centralisée des activités techniques, pédagogiques et administratives d'une structure de formation et de production.
 
-Currently, two official plugins are available:
+## Fonctionnalités principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔧 Gestion Technique
+- Suivi des ateliers de fabrication de machines
+- Gestion des livraisons
+- Suivi des commandes et des clients
 
-## Expanding the ESLint configuration
+### 🎓 Gestion de la Formation
+- Gestion des étudiants (inscriptions, parcours)
+- Suivi des enseignants et des modules de formation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👨‍💼 Gestion du Personnel
+- Administration des ressources humaines (RH)
+- Suivi des congés, contrats et dossiers du personnel
+
+---
+
+## Stack Technique
+
+- **React** : bibliothèque JavaScript pour construire des interfaces utilisateur
+- **Vite** : outil de build rapide pour le développement web moderne
+- **ESLint** : analyse statique du code pour en assurer la qualité
+
+---
+
+## Démarrage rapide
+
+```bash
+npm install
+npm run dev
